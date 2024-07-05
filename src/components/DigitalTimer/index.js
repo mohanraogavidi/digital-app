@@ -40,7 +40,7 @@ class DigitalTimer extends Component {
     return (
       <div className="timer-limit-controller-container">
         <p className="limit-label">Set Timer limit</p>
-        <div className="timer-limit-container">
+        <div className="timer-limit-controller">
           <button
             className="limit-controller-button"
             disabled={isButtonsDisabled}
@@ -162,7 +162,7 @@ class DigitalTimer extends Component {
       <div className="app-container">
         <h1 className="heading">Digital Timer</h1>
         <div className="digital-timer-container">
-          <div className="timer=display-container">
+          <div className="timer-display-container">
             <div className="elapsed-time-container">
               <h1 className="elapsed-time">
                 {this.getElapsedSecondsInTimeFormat()}

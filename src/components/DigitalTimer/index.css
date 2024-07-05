@@ -78,7 +78,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .timer-display-container {
     width: 600px;
     height: 600px;
@@ -96,7 +96,7 @@
   border-radius: 100%;
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .elapsed-time-container {
     width: 150px;
     height: 150px;
@@ -146,7 +146,7 @@
   flex-grow: 1;
 }
 
-timer-controller-container {
+.timer-controller-container {
   display: flex;
   align-items: center;
 }
@@ -184,7 +184,7 @@ timer-controller-container {
   font-weight: 500;
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .timer-controller-label {
     font-size: 32px;
   }
