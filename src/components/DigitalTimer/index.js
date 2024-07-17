@@ -13,7 +13,7 @@ class DigitalTimer extends Component {
   state = initialState
 
   componentWillUnmount() {
-    this.clearTimerInterval()
+    this.clearTimerIntervel()
   }
 
   clearTimerIntervel = () => clearInterval(this.intervalId)
